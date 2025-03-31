@@ -28,9 +28,6 @@
 
 ---
 
-
----
-
 ## User Stories
 
 ## 🔐 Authentication
