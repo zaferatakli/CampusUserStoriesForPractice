@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Capmus Project Test Suite">
+    <test name="Login Test">
+        <classes>
+            <class name="US_001LoginFeature.TC_L01_Login"></class>
+        </classes>
+    </test>
+    <test name="HomePage Test">
+        <classes>
+            <class name="US_002HomePage.TC_H02HomePage"></class>
+        </classes>
+    </test>
+</suite>
