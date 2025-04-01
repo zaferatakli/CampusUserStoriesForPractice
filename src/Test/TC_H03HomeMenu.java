@@ -1,4 +1,4 @@
-package US_003HomeMenu;
+package Test;
 
 import Base.BaseDriver;
 import org.testng.annotations.*;
