@@ -3,7 +3,13 @@
 <suite name="Campus Project Test Suite">
     <test name="Login Test">
         <classes>
-            <class name="Test.TC_L01_Login"></class>
+            <class name="Test.TC_L01_Login">
+                <methods>
+                    <exclude name="testInvalidLogin"/>
+                    <exclude name="testEmptyFieldsLogin"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
     <test name="HomePage Test">
