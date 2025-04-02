@@ -8,4 +8,10 @@ public class MyFunc {
             throw new RuntimeException(e);
         }
     }
+    public static void CloseFaultyWindows() {
+        try {
+            Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe /T");
+        } catch (Exception ignored) {
+        }
+    }
 }
